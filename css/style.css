@@ -238,20 +238,6 @@ section {
     color: #eee;
 }
 
-.home .content .hover_img a {
-    position: relative;
-}
-
-.home .content .hover_img a span {
-    position: absolute;
-    display: none;
-}
-
-.home .content .hover_img a:hover span {
-    display: block;
-    color: black;
-}
-
 .about .row {
     display: flex;
     align-items: center;
