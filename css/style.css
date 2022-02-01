@@ -238,6 +238,20 @@ section {
     color: #eee;
 }
 
+.home .content .hover_img a {
+    position: relative;
+}
+
+.home .content .hover_img a span {
+    position: absolute;
+    display: none;
+}
+
+.home .content .hover_img a:hover span {
+    display: block;
+    color: black;
+}
+
 .about .row {
     display: flex;
     align-items: center;
@@ -322,6 +336,11 @@ section {
 
 .menu .box-container .box:hover>* {
     color: var(--black);
+}
+
+.menu .box-container .box .stars i {
+    font-size: 1.7rem;
+    color: var(--main-color);
 }
 
 .products .box-container {
@@ -567,10 +586,11 @@ section {
 }
 
 .footer .credit {
-    font-size: 2rem;
+    font-size: 1rem;
     color: #fff;
     font-weight: lighter;
     padding: 1.5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .footer .credit span {
